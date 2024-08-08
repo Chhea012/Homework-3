@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+nav a{ 
+    margin: 20px;
+    font-size: 25px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 360px;
+    object-fit: cover;
+}
+.card{
+    text-align: center;
+    width: 28%;
+    background: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.137);
+}
+button{
+    background: #03344C;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+button:hover{
+    background: #db26db;
+    transform: scale(1.04);
+
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 2px 1px silver;
+}
+.portfolio img{
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.card-container-2{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio{
+    text-align: center;
+    width: 28%;
+    background:white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.137);
+}
+.portfolio:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 2px 1px silver;
+}
+.link {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-decoration: none;
+}
+.link a{
+    color: rgb(2, 105, 100);
+    text-decoration: none;
+}
